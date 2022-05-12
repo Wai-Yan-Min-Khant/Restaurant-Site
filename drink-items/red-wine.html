@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drink Items</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Sweet Alert -->
+    <link
+      href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+    <!-- Veno Box CSS-->
+    <link
+      rel="stylesheet"
+      href="./../venobox/VenoBox-master/dist/venobox.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./../style.css" />
+  </head>
+  <body>
+    <!-- Cursor -->
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div class="container-fluid mt-3" style="position: fixed; z-index: 99">
+      <a
+        href="./../menu/menu.html#drink-menu"
+        class="d-flex text-decoration-none go-back-icon"
+      >
+        <img
+          src="./../img/Arrow 4.svg"
+          alt="back-arrow"
+          class="back-arrow test-back-arrow ms-2"
+        />
+        <h6 class="ms-2 mt-2 back-text test-back-text">GO BACK</h6>
+      </a>
+    </div>
+
+    <section class="py-5">
+      <div class="container-fluid-sm container-lg">
+        <div class="section-title-center text-center py-5">
+          <h2 class="section-title" data-aos="zoom-in">
+            Healthy Drinks For You
+          </h2>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <a
+            class="venobox my-link col-sm-12 col-lg-5 mb-3"
+            href="./../img/red-wine.jpg"
+            ><img
+              src="./../img/red-wine.jpg"
+              alt=""
+              class="img-fluid food-item1"
+          /></a>
+          <!-- <img
+            src="./../img/red-wine.jpg"
+            alt=""
+            class="col-sm-12 col-lg-5 img-fluid food-item1"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          /> -->
+          <div class="col-sm-12 col-lg-7">
+            <div class="ms-3">
+              <h4 class="title" data-aos="fade-left" data-aos-delay="300">
+                Red Wine
+              </h4>
+              <p
+                class="mt-3"
+                style="font-size: 15px; line-height: 28.8px"
+                data-aos="fade-left"
+                data-aos-delay="400"
+              >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                asperiores cum! Dolores, voluptas. Qui necessitatibus architecto
+                ipsam corrupti eius provident consequuntur maxime labore
+                officiis consectetur distinctio laudantium placeat doloribus
+                doloremque non accusamus pariatur, sint quos nisi beatae neque
+                quisquam! Ipsa.
+              </p>
+              <button
+                class="btn order-now-btn mt-2"
+                data-aos="fade-left"
+                data-aos-delay="500"
+                onclick="orderAlertFunction()"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section Start -->
+    <footer class="bg-dark">
+      <div class="d-flex justify-content-between align-items-center">
+        <img
+          src="./../img/logo1.png"
+          alt="logo1"
+          class="img-fluid mt-1 logo1"
+        />
+        <h5 class="text-white mb-0">
+          All Rights Reserved |
+          <a href="#waiyanminkhant" class="wymk">Wai Yan Min Khant</a>
+        </h5>
+        <div class="d-flex me-3">
+          <a href="#facebook" class="footer-facebook">
+            <i class="fa-brands fa-facebook-f fa-1x"></i>
+          </a>
+          <a href="#instagram" class="mx-4">
+            <i class="fa-brands fa-twitter fa-1x"></i>
+          </a>
+          <a href="#twitter">
+            <i class="fa-brands fa-instagram fa-1x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+    <!-- Veno Box JS -->
+    <script src="./../venobox/VenoBox-master/dist/venobox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./../app.js"></script>
+  </body>
+</html>
